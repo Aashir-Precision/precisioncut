@@ -1,0 +1,235 @@
+.about {
+  padding: 50px 20px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Image */
+.image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Right Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #2e3a45;
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #2e3a45;
+  border: 2px solid #2e3a45;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #2e3a45;
+  color: #fff;
+}
+.precision {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.cut {
+  width: 100%;
+  text-align: center;
+}
+
+.cut h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cut p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.field {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.field:focus {
+  border-color: #007bff;
+}
+
+.sub {
+  width: 100%;
+  padding: 12px;
+  background-color: #111;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #112;
+}
+
+small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #666;
+}
+.offer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .offerhead {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .offersub {
+            font-size: 1.2em;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .offerlist {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .offercard {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+
+        .offerimg {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .offertext {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .offertitle {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+
+@media (max-width: 768px)
+{
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 100%;
+  }
+
+  .text {
+    margin: 0 auto;
+    text-align: center;
+
+  }
+   .offerlist {
+                flex-direction: column;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+}
+
+
+@media (max-width: 480px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
