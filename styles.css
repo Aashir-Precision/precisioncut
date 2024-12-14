@@ -227,7 +227,7 @@ body {
 .about-text h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #111;
+    color: #fff;
 }
 
 .about-text p {
@@ -644,6 +644,7 @@ body {
 
 .image-section img {
     width: 100%;
+    height: 300px;
     height: auto;
     border-radius: 10px;
 }
